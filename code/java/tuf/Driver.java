@@ -2,9 +2,10 @@ package tuf;
 
 public class Driver {
     public static void main(String[] args) {
-        TwoSum twoSumSol = new TwoSum();
-        int res[] = twoSumSol.twoSum(new int[] {2, 7, 11, 15},9);
-        for(int a:res)
+        SortColorL75 obj = new SortColorL75();
+        int arr[] = new int[]{2,0,2,1,1,0};
+        obj.sortColors(arr);
+        for(int a:arr)
             System.out.print(a + " ");
     }
 }
